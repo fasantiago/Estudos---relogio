@@ -1,0 +1,36 @@
+* {background-color: rgb(39, 4, 4); margin: 0 auto; padding: 0; font-family: 'Roboto', sans-serif}
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Poppins:wght@500&family=Roboto+Mono&family=Roboto:wght@300;400&family=Ubuntu+Condensed&display=swap');
+/* position and style of main */
+.container-main {
+    text-align: center;
+    color: aliceblue;
+}
+/* style of number principal */
+#container-number {
+    font-size: 15em;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    bottom: 35%;
+}   
+/* style buttons and position */
+.container-box-buttons {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    top: 26.5em;
+
+}
+.start-button,
+.stop-button,
+.reset-button {
+    width: 113.5px;
+    height: 4.5em;
+    color: wheat;               /*align later*/
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.37);
+    cursor: pointer;
+    font-size: medium;
+}
